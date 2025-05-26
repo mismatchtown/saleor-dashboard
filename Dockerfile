@@ -28,7 +28,7 @@ ARG STATIC_URL
 ARG SKIP_SOURCEMAPS
 ARG LOCALE_CODE
 
-ENV API_URL ${API_URL:-http://localhost:8000/graphql/}
+ENV API_URL ${API_URL:-http://saleor-t3cd:8000/graphql/}
 ENV APP_MOUNT_URI ${APP_MOUNT_URI:-/dashboard/}
 ENV APPS_MARKETPLACE_API_URL ${APPS_MARKETPLACE_API_URL:-https://apps.saleor.io/api/v2/saleor-apps}
 ENV EXTENSIONS_API_URL ${EXTENSIONS_API_URL:-https://apps.saleor.io/api/v1/extensions}
